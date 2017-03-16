@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv=“X-UA-Compatible” content=“IE=edge,chrome=1”> <!--避免IE使用兼容模式-->
+		<title>注册成功</title>
+		<link rel="stylesheet" href="css/common.css" />
+	 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	 	<link rel="stylesheet" type="text/css" href="css/success.css">
+	 	<script src="js/jquery-1.10.2.min.js"></script>
+	 	<script type="text/javascript" src="js/main.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="w1000">
+				<img src="images/logo.png" alt="" />
+				<img src="images/logo1.png" alt="" />
+			</div>
+		</header>
+		<article>
+			<section class="w1000 top">
+				<img src="images/icon9_1.png" alt="" /><span>注册会员</span>
+				<p>我已经注册好了现在开始<a href="">登陆</a></p>
+			</section>
+			<section class="w1000 content">
+				<div class="show">
+					<span>填写注册信息</span>
+					<span>接受并填写手机验证码</span>
+					<span>注册成功</span>
+				</div>
+				<div class="pic">
+					<img src="images/regis1.png" alt="" />
+					<img src="images/regis2.png" alt="" />
+					<img src="images/regis5.png" alt="" />
+				</div>
+				<div class="content_main">
+					<img src="images/icon34.png" alt="">
+					<div>
+						<p>恭喜了，注册已成功</p>
+						<p>登录名为：<span id="username"></span><input type="button" value="立即登录" id="enter"></p>
+					</div>
+				</div>
+				<div class="two">
+					<img src="images/webchat.png" alt="">
+					<img src="images/text.png" alt="">
+				</div>
+			</section>
+
+			<!-- 关于我们 -->
+			<section class="about">
+				<ul>
+					<li><a href="#">关于我们</a>|</li>
+					<li><a href="#">免责申明</a>|</li>
+					<li><a href="#">常见问题</a>|</li>
+					<li><a href="#">联系我们</a>|</li>
+					<li><a href="#">人才招聘</a></li>
+				</ul>
+			</section>
+		</article>
+		<!-- 关于我们 -->
+			
+		<footer>
+			<section class="footer w1000">
+				<p><span>Copyright@ 2013-2016</span>| 苏ICP备12063525号-4 苏州乐卡网络科技有限公司</p>
+			</section>
+		</footer>
+		<div class="bg"></div>
+			<div class="aler">
+				<ul>
+					<li>密码登录</li>
+					<li>手机验证码登录</li>
+				</ul>
+				<div class="wrap">
+                <div class="aler_left">
+                    <form action="list.html" id="doform3">
+                        <p><input type="text" placeholder="手机号" id="phone"></p>
+                        <p><input type="password" placeholder="密码" id="pwd"></p>
+                        <span class="error2">手机号或密码输入错误</span>
+                        <p><input type="checkbox" id="box"><span>自动登录</span><a href="#">忘记密码？</a></p>
+                        <p><input type="button" name="" value="登录" id="aler_btn1"></p>
+                    </form>
+                </div>
+
+                <div class="aler_right">
+                    <form>
+                        <p><input type="text" placeholder="手机号" id="phone"></p>
+                        <p><input type="text" placeholder="验证码" id="pwd"><img src="images/icon32.png"><span>看不清楚？<a href="">换一张</a></span></p>
+                        <p><input type="text" placeholder="手机验证码"><button>获取手机验证码</button></p>
+                        
+                        <p id="last"><button>登录</button></p>
+                    </form>
+                </div>
+                <div class="down">
+                	<p>还不是方便会员？<a href="index.html">立即注册</a></p>
+            	</div>
+            </div>
+
+		</div>
+		
+	</body>
+</html>

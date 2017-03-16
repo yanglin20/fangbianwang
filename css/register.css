@@ -1,0 +1,238 @@
+@charset "utf-8";
+
+.w1000{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+header{
+	width: 100%;
+	height: 100px;
+	background:#ffffff ;
+	box-sizing: border-box;
+	border-bottom: 2px solid #7ec08a;
+}
+header img{
+	margin:12px 20px 0 0;
+}
+
+article{
+	box-sizing: border-box;
+	width: 100%;
+	height: 985px;
+	background: #fbfbfb;
+	border: 2px solid #e8e8e8;
+}
+article .top{
+	height: 60px;
+}
+article .top img{
+	margin-left: 10px;
+	vertical-align: middle;
+}
+article .top span{
+	vertical-align: middle;
+	line-height: 60px;
+	color: #333333;
+	font-size: 20px;
+}
+article .top p{
+	float: right;
+	font-size: 16px;
+	line-height: 60px;
+	color: #8a888a;
+}
+article .top a{
+	color: #2da1e7;
+}
+
+article .content{
+	height: 830px;
+	box-sizing: border-box;
+	border: 2px solid #dbdbdb;
+}
+article .content .show{
+	height: 50px;
+	box-sizing: border-box;
+	background: #f8faf5;
+}
+article .content .show span{
+	font-size: 16px;
+	line-height: 50px;
+	color: #8a888a;
+	margin-top: 10px;
+	width: 300px;
+	margin-left: 20px;
+}
+article .content .show span:nth-child(2),article .content .show span:nth-child(3){
+	margin-left: 310px;
+}
+article .content .pic{
+	height: 60px;
+	width: 100%;
+}
+article .content .pic img{
+	
+	float: left;
+}
+article .content .pic img:first-of-type{
+	margin-left: 57px;
+}
+article .content .content_left{
+	box-sizing: border-box ;
+	width: 770px;
+	height: 420px;
+	float: left;
+}
+article .content .content_left p{
+	font-size: 18px;
+	color: #414141;
+	line-height: 30px;
+	margin: 30px 0 0 120px;
+}
+article .content .content_left p span{
+	vertical-align: middle;
+	color: #ff9022;
+}
+article .content .content_left p:nth-of-type(2){
+	margin-left: 60px;
+
+}
+article .content .content_left p input{
+	border:1px solid #dbdbdb;
+	box-shadow: 2px 2px 2px #ccc inset;
+	width: 160px;
+	height: 30px;
+	line-height: 35px;
+	margin: 0px 5px 1px 10px;
+	padding-left: 10px;
+	vertical-align: middle;
+}
+article .content .content_left #btn2{
+	width: 170px;
+	height: 35px;
+	background-color: #ff9000;
+	color: #fff;
+	text-align: center;
+	line-height: 35px;
+	font-size: 18px;
+	border-radius: 5px;
+	margin: 10px 0 0 123px;
+}
+article .content .content_left>div{
+	width: 730px;
+	height: 130px;
+	margin:40px 0 0 20px;
+	border-top: 1px dashed #e2e2e2;
+}
+article .content .content_left div h6{
+	height: 40px;
+	line-height: 40px;
+	width: 225px;
+	font-size: 14px;
+	margin: 40px 0 0 110px;
+	color: #373737;
+}
+article .content .content_left #btn3{
+	width: 130px;
+	height: 30px;
+	background-color: #ececec;
+	color: #373737;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	border:1px solid #dadada;
+	border-radius: 3px;
+	margin: 10px 0 0 110px;
+}
+article .content .content_bottom{
+	clear: both;
+	width: 960px;
+	height: 280px;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+	/* background:url(../images/bg_body.png); */
+}
+article .content .content_bottom h2{
+	margin-left: 20px;
+	line-height: 25px;
+
+}
+article .content .content_bottom h2:first-child{
+	line-height: 60px;
+}
+article .content .content_bottom h2:nth-child(3){
+	margin-bottom: 20px;
+}
+article .content .content_bottom h2:nth-child(5){
+	margin-bottom: 20px;
+}
+
+/*右边*/
+article .content .content_right{
+	float: right;
+	width: 200px;
+	height: 400px;
+	margin-right: 20px;
+	border: 1px solid #dcdcdc;
+	text-align: center;
+}
+article .content .content_right img:first-child{
+	margin-top: 25px;
+}
+article .content .content_right img:nth-child(2){
+	margin:20px 0 20px 0;
+}
+article .about ul{
+	/* clear: both;
+	width: 600px;
+	height: 40px;
+	margin: 65px auto 0 auto; */
+	width: 600px;
+	height: 40px;
+	margin: 50px auto 0 auto;
+	display: flex;
+	justify-content: space-around;
+	
+}
+article .about ul li:not(:last-child){
+	width: 120px;
+	text-align: center;
+	/* float: left; */
+}
+article .about ul li:last-child a{
+	margin-right: 0;
+	width: 80px;
+	/* float: left; */
+}
+article .about ul li a{
+	font-size: 16px;
+	line-height: 40px;
+	color: #7a7878;
+	margin-right: 25px;
+}
+
+
+
+/* 底部 */
+footer{
+	width: 100%;
+	height: 120px;
+	background-color: #fdfdfd;
+}
+footer .footer{
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+footer .footer p{
+
+	font-size: 10px;
+	line-height: 50px;
+	color: #666666;
+}
+footer .footer p span{
+	color: #a29999;
+}
+

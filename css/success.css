@@ -1,0 +1,160 @@
+/* 弹框的页面 */
+.bg{
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(48,48,48,0.4);
+	z-index: 10;
+}
+
+.aler{
+	width: 360px;
+	height: 368px;
+	background: url("../images/icon8.png");
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -180px 0 0 -184px;
+	display: none;
+	z-index: 11;
+}
+.aler ul{
+	box-sizing: border-box;
+	width: 360px;
+	height: 55px;
+
+}	
+.aler ul li{
+	box-sizing: border-box;
+	float: left;
+	width: 180px;
+	height: 55px;
+	text-align: center;
+	line-height: 55px;
+	font-size:  16px ;
+	color: #999;
+	border-bottom: 1px solid #49a75b;
+	cursor: pointer;/*点上去变小手*/
+}
+
+.aler ul li.on{
+	color: #49a75b;
+	border-bottom: 4px solid #49a75b;
+}
+.aler .aler_left{
+	display: none;
+}
+.aler .aler_left form p #phone,.aler .aler_left form p #pwd{
+	clear: both;
+	width: 300px;
+	height: 40px;
+	margin: 20px 0 0 20px;
+	padding-left: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.aler .aler_left form p:nth-of-type(3){
+	width: 300px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.aler .aler_left form p input[id=box]{
+	float: left;
+}
+.aler .aler_left form p span{
+	float: left;
+	margin-left: 5px;
+}
+
+.aler .aler_left form p a{
+	color: #2da1e9;
+	float: right;
+}
+.aler .aler_left form p:nth-of-type(4){
+	width: 300px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.aler .aler_left form p #aler_btn1{
+	width: 300px;
+	height: 30px;
+	color: #fff;
+	font-size: 16px;
+	background: #49a75b;
+	border-radius: 5px;
+}
+
+.aler .aler_left form  .error2{
+	margin-left: 20px;
+	color: red;
+	display: none;
+}
+
+.aler .aler_right{
+	width: 302px;
+	height: 190px;
+	margin: 0 auto;
+	display: none;
+}
+.aler .aler_right form p:not(#last){
+	margin-top: 25px;
+}
+.aler .aler_right p input{
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.aler .aler_right p:first-child input{
+	width: 300px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.aler .aler_right p:nth-child(2) input{
+	width: 124px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.aler .aler_right p:nth-child(3) input{
+	width: 124px;
+	height: 40px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.aler .aler_right p:nth-child(3) button{
+	width: 100px;
+	height: 25px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: #fff;
+	margin-left: 5px;
+}
+.aler .aler_right form p:nth-child(4) button{
+	width: 300px;
+	height: 30px;
+	color: #fff;
+	font-size: 16px;
+	background: #49a75b;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+.aler .aler_right form p a{
+	color: #38a5e8;
+}
+.aler .down{
+	width: 339px;
+	height: 52px;
+	background: #f7fbf5;
+	margin: 0 auto;
+	line-height: 52px;
+	margin-top: 30px;
+}
+.aler .down p{
+	margin-left: 15px;
+	color: #000;
+}
